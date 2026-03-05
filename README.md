@@ -4,6 +4,24 @@ Aplikasi Flutter untuk mengelola pendaftaran peserta event. Pengguna dapat mengi
 
 ---
 
+## Struktur Folder
+
+```
+lib/
+├── models/
+│   └── registrant_model.dart
+├── providers/
+│   └── registration_provider.dart
+├── pages/
+│   ├── registration_page.dart
+│   ├── registrant_list_page.dart
+│   ├── registrant_detail_page.dart
+│   └── edit_registrant_page.dart
+└── main.dart
+```
+
+---
+
 ## Fitur Aplikasi
 
 ### Form Registrasi Multi-Step
@@ -55,24 +73,6 @@ Aplikasi menggunakan named routes yang didefinisikan di `main.dart`. Perpindahan
 | `/list` | Daftar pendaftar (RegistrantListPage) |
 | `/detail` | Detail peserta (RegistrantDetailPage) |
 | `/edit` | Edit data peserta (EditRegistrantPage) |
-
----
-
-## Struktur Folder
-
-```
-lib/
-├── models/
-│   └── registrant_model.dart
-├── providers/
-│   └── registration_provider.dart
-├── pages/
-│   ├── registration_page.dart
-│   ├── registrant_list_page.dart
-│   ├── registrant_detail_page.dart
-│   └── edit_registrant_page.dart
-└── main.dart
-```
 
 ---
 
